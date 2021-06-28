@@ -1,39 +1,28 @@
 <template>
-  <div class="hello">
-    <div class="jumbotron jumbotron-fluid" style="background-image: url(Pictures/202010218723.png); background-size: 100%;">
-    <div class="container for-about">
-    </div>
- </div>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" style="color: red">RK</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Project.html">Projecten</a>
-          </li>
-        <li class="nav-item">
-            <a class="nav-link" href="About.html">Over mij</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="rekenen.html">Rekenmachine</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="BKE.html">Tic-Tac-Toe</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="https://rkarabicek.github.io/vue-pages/">VUE <span class="sr-only">(current)</span></a>
-      </li>
+  <div>
+  <h1>Welkom bij de vacation selector</h1>
+  <ul class="ul1">
+    <li>
+      <a href="https://rkarabicek.github.io">Home</a>
+    </li>
+    <li>
+      <a href="https://rkarabicek.github.io/contact.html">Contact</a>
+    </li>
+    <li>
+      <a href="https://rkarabicek.github.io/Project.html">Projecten</a>
+    </li>
+    <li>
+      <a href="https://rkarabicek.github.io/about.html">Over mij</a>
+    </li>
+    <li>
+      <a href="https://rkarabicek.github.io/Rekenmachine.html">Rekenmachine</a>
+    </li>
+    <li>
+      <a href="https://rkarabicek.github.io/BKE.html">Tic-Tac-Toe</a>
+    </li>
+  </ul>
   </div>
+  <img src="china.jpg" alt="china">
 </template>
 
 <script>
@@ -50,8 +39,13 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
+.ul1 {
+  background-color: #90ee90;
+  border-color: green;
+  border-radius: 20px;
+}
 ul {
-  list-style-type: none;
+  margin: 10px;
   padding: 0;
 }
 li {
